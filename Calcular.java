@@ -8,15 +8,15 @@ public class Calcular {
 		int valor2;
 		
 		System.out.println("*** Calculadora certa ***");
-		System.out.println("Digite o primeiro número para ser calculador:");
+		System.out.println("Digite o primeiro nÃºmero para ser calculador:");
 		System.out.print("R: ");
 		operadores.a = teclado.nextInt();
-		System.out.println("Digite o segundo número para ser calculador:");
+		System.out.println("Digite o segundo nÃºmero para ser calculador:");
 		System.out.print("R:");
 		operadores.b = teclado.nextInt();
 		
-		System.out.println("Qual opearação você quer realizar?");
-		System.out.println("1 - Soma, 2 - Subtração, 3 - Multiplicação, 4 - Divisão");
+		System.out.println("Qual opearaÃ§Ã£o vocÃª quer realizar?");
+		System.out.println("1 - Soma, 2 - SubtraÃ§Ã£o, 3 - MultiplicaÃ§Ã£o, 4 - DivisÃ£o");
 		System.out.print("R:");
 		operadores.operacao = teclado.nextInt();
 		System.out.println("");
@@ -26,12 +26,11 @@ public class Calcular {
 		}else if(operadores.operacao == 2){
 			operadores.subtracao();
 		}else if(operadores.operacao == 3){
-			operadores.multiplicacao();
+			operadores.multiplicacao(); 
 		}else if(operadores.operacao == 4){
 			operadores.divisao();
-        {
-}
-
-		}
-		}
+		}else 
+			system.out.println("digite um valor vÃ¡lido");
+	}
+	 }
 	}
